@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #333;
+}
+
+nav li{
+    display: inline-block
+}
+
+nav li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+nav li a:hover{
+    color: red;
+}
+
+
+.dropdrown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdrown-menu a{
+    display: block;
+    color: black;
+}
+
+.dropdrown:hover .dropdrown-menu{
+    display: block;
+}
